@@ -1,3 +1,4 @@
 #!/bin/sh
 go build Hello.go
-echo 'openopen' | sudo -S docker build -t hello_go_demo .
+echo 'openopen'
+echo 'openopen\n' | sudo -S docker build -t hello_go_demo .
